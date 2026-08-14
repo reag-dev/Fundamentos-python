@@ -1,6 +1,6 @@
+print("Tabuada interativa")
+
 while True:
-    print("Tabuada interativa")
-    
     try: 
         user_number = int(input("Digite um número: "))
     except ValueError:
